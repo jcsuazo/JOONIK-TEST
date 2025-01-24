@@ -13,6 +13,6 @@ class LocationController extends Controller
    */
   public function index()
   {
-    return response()->json(["message" => "Hello World!!!!!"], 200);
+    return Location::all();
   }
 }
