@@ -1,4 +1,4 @@
-import LocationList from "./components/LocationList";
+import LocationList from "./components/LocationList.tsx";
 
 function App() {
   return (
