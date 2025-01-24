@@ -11,8 +11,8 @@ class LocationController extends Controller
   /**
    * Display a listing of the resource.
    */
-  public function index()
-  {
-    return Location::all();
-  }
+    public function index()
+    {
+        return Location::all();
+    }
 }
